@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+   	<groups>
+   		<run>
+   			<include name="Login"/>
+   			<include name="FistPage"/>   			
+   			<include name="BusinessLists"/>
+   			<include name="SMSTemplate"/>
+   			<include name="PhoneRelease"/>
+   			<include name="JobNoOfWhiteList"/>
+   			<include name="ShoppingMallDirectory"/>
+   			<include name="HealthCode"/>
+   			<include name="NewSubordinateEnterprises"/> 
+   			<include name="SalesForceList"/>
+   			<include name="SalesStaffCreditInformation"/> 
+   			<include name="CustomerServicePersonnelList"/>
+   			<include name="ReleaseCommodities"/>
+   			<include name="ListOfItemsOnSale"/>
+   			<include name="BrandLabel"/>
+   			<include name="CommodityAgreementManagement"/>
+   		</run>
+   	</groups>   	
+   	
+    <classes>
+      <!-- <class name="GovernmentBusiness.NewTest"/> -->
+      <class name="TestCase.Login"></class>
+      <class name="TestCase.FistPage"></class>     
+      <class name="platformmanage.BusinessLists"></class>
+      <class name="platformmanage.SMSTemplate"/>
+      <class name="platformmanage.PhoneRelease"></class> 
+      <class name="platformmanage.JobNoOfWhiteList"></class>   
+      <class name="platformmanage.ShoppingMallDirectory"></class> 
+      <class name="platformmanage.HealthCode"/> 
+      <class name="channelmanagement.NewSubordinateEnterprises"/> 
+      <class name="channelmanagement.SalesForceList"/>
+      <class name="channelmanagement.SalesStaffCreditInformation"/>
+      <class name="channelmanagement.CustomerServicePersonnelList"/>
+      <class name="businessmanager.ReleaseCommodities"/>
+      <class name="businessmanager.ListOfItemsOnSale"/>
+      <class name="businessmanager.BrandLabel"/>
+      <class name="businessmanager.CommodityAgreementManagement"></class>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+
+
+

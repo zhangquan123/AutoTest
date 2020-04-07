@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="176955" started-at="2020-04-07T02:03:35Z" finished-at="2020-04-07T02:06:32Z">
+    <groups>
+      <group name="BrandLabel">
+        <method signature="BrandLabel.ShoppingManager()[pri:0, instance:businessmanager.BrandLabel@256216b3]" name="ShoppingManager" class="businessmanager.BrandLabel"/>
+      </group> <!-- BrandLabel -->
+      <group name="PhoneRelease">
+        <method signature="PhoneRelease.QiYeGuanXiGuanLi()[pri:0, instance:platformmanage.PhoneRelease@7cf10a6f]" name="QiYeGuanXiGuanLi" class="platformmanage.PhoneRelease"/>
+      </group> <!-- PhoneRelease -->
+      <group name="ReleaseCommodities">
+        <method signature="ReleaseCommodities.FaBuCommpdities()[pri:0, instance:businessmanager.ReleaseCommodities@7e0babb1]" name="FaBuCommpdities" class="businessmanager.ReleaseCommodities"/>
+      </group> <!-- ReleaseCommodities -->
+      <group name="ShoppingMallDirectory">
+        <method signature="ShoppingMallDirectory.ShangChenMuLu()[pri:0, instance:platformmanage.ShoppingMallDirectory@3f0ee7cb]" name="ShangChenMuLu" class="platformmanage.ShoppingMallDirectory"/>
+      </group> <!-- ShoppingMallDirectory -->
+      <group name="ListOfItemsOnSale">
+        <method signature="ListOfItemsOnSale.OnsaleList()[pri:0, instance:businessmanager.ListOfItemsOnSale@4cdbe50f]" name="OnsaleList" class="businessmanager.ListOfItemsOnSale"/>
+      </group> <!-- ListOfItemsOnSale -->
+      <group name="SalesForceList">
+        <method signature="SalesForceList.QiYeList()[pri:0, instance:channelmanagement.SalesForceList@7d417077]" name="QiYeList" class="channelmanagement.SalesForceList"/>
+      </group> <!-- SalesForceList -->
+      <group name="BusinessLists">
+        <method signature="BusinessLists.qiyeliebiao()[pri:0, instance:platformmanage.BusinessLists@66d33a]" name="qiyeliebiao" class="platformmanage.BusinessLists"/>
+      </group> <!-- BusinessLists -->
+      <group name="NewSubordinateEnterprises">
+        <method signature="NewSubordinateEnterprises.AddXiaShuQiYe()[pri:0, instance:channelmanagement.NewSubordinateEnterprises@5ba23b66]" name="AddXiaShuQiYe" class="channelmanagement.NewSubordinateEnterprises"/>
+      </group> <!-- NewSubordinateEnterprises -->
+      <group name="Login">
+        <method signature="Login.login()[pri:0, instance:TestCase.Login@2c8d66b2]" name="login" class="TestCase.Login"/>
+      </group> <!-- Login -->
+      <group name="HealthCode">
+        <method signature="HealthCode.JanKangMa()[pri:0, instance:platformmanage.HealthCode@75bd9247]" name="JanKangMa" class="platformmanage.HealthCode"/>
+      </group> <!-- HealthCode -->
+      <group name="SMSTemplate">
+        <method signature="SMSTemplate.DuanXinMuBan()[pri:0, instance:platformmanage.SMSTemplate@d041cf]" name="DuanXinMuBan" class="platformmanage.SMSTemplate"/>
+      </group> <!-- SMSTemplate -->
+      <group name="FistPage">
+        <method signature="FistPage.shouye()[pri:0, instance:TestCase.FistPage@6debcae2]" name="shouye" class="TestCase.FistPage"/>
+      </group> <!-- FistPage -->
+      <group name="CustomerServicePersonnelList">
+        <method signature="CustomerServicePersonnelList.KeFuPersionList()[pri:0, instance:channelmanagement.CustomerServicePersonnelList@c818063]" name="KeFuPersionList" class="channelmanagement.CustomerServicePersonnelList"/>
+      </group> <!-- CustomerServicePersonnelList -->
+      <group name="CommodityAgreementManagement">
+        <method signature="CommodityAgreementManagement.ProductAgreementManagenent()[pri:0, instance:businessmanager.CommodityAgreementManagement@1134affc]" name="ProductAgreementManagenent" class="businessmanager.CommodityAgreementManagement"/>
+      </group> <!-- CommodityAgreementManagement -->
+      <group name="JobNoOfWhiteList">
+        <method signature="JobNoOfWhiteList.GongHaoBaiMingDan()[pri:0, instance:platformmanage.JobNoOfWhiteList@56cbfb61]" name="GongHaoBaiMingDan" class="platformmanage.JobNoOfWhiteList"/>
+      </group> <!-- JobNoOfWhiteList -->
+      <group name="SalesStaffCreditInformation">
+        <method signature="SalesStaffCreditInformation.XiaoShouJiFen()[pri:0, instance:channelmanagement.SalesStaffCreditInformation@2ff4f00f]" name="XiaoShouJiFen" class="channelmanagement.SalesStaffCreditInformation"/>
+      </group> <!-- SalesStaffCreditInformation -->
+    </groups>
+    <test name="Test" duration-ms="176955" started-at="2020-04-07T02:03:35Z" finished-at="2020-04-07T02:06:32Z">
+      <class name="channelmanagement.CustomerServicePersonnelList">
+        <test-method status="PASS" signature="KeFuPersionList()[pri:0, instance:channelmanagement.CustomerServicePersonnelList@c818063]" name="KeFuPersionList" duration-ms="10312" started-at="2020-04-07T10:05:40Z" finished-at="2020-04-07T10:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KeFuPersionList -->
+      </class> <!-- channelmanagement.CustomerServicePersonnelList -->
+      <class name="platformmanage.HealthCode">
+        <test-method status="PASS" signature="JanKangMa()[pri:0, instance:platformmanage.HealthCode@75bd9247]" name="JanKangMa" duration-ms="10359" started-at="2020-04-07T10:04:59Z" finished-at="2020-04-07T10:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JanKangMa -->
+      </class> <!-- platformmanage.HealthCode -->
+      <class name="channelmanagement.SalesStaffCreditInformation">
+        <test-method status="PASS" signature="XiaoShouJiFen()[pri:0, instance:channelmanagement.SalesStaffCreditInformation@2ff4f00f]" name="XiaoShouJiFen" duration-ms="10281" started-at="2020-04-07T10:05:30Z" finished-at="2020-04-07T10:05:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- XiaoShouJiFen -->
+      </class> <!-- channelmanagement.SalesStaffCreditInformation -->
+      <class name="TestCase.FistPage">
+        <test-method status="PASS" signature="shouye()[pri:0, instance:TestCase.FistPage@6debcae2]" name="shouye" duration-ms="1956" started-at="2020-04-07T10:03:57Z" finished-at="2020-04-07T10:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouye -->
+      </class> <!-- TestCase.FistPage -->
+      <class name="businessmanager.ListOfItemsOnSale">
+        <test-method status="PASS" signature="OnsaleList()[pri:0, instance:businessmanager.ListOfItemsOnSale@4cdbe50f]" name="OnsaleList" duration-ms="10307" started-at="2020-04-07T10:06:01Z" finished-at="2020-04-07T10:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnsaleList -->
+      </class> <!-- businessmanager.ListOfItemsOnSale -->
+      <class name="platformmanage.JobNoOfWhiteList">
+        <test-method status="PASS" signature="GongHaoBaiMingDan()[pri:0, instance:platformmanage.JobNoOfWhiteList@56cbfb61]" name="GongHaoBaiMingDan" duration-ms="15800" started-at="2020-04-07T10:04:34Z" finished-at="2020-04-07T10:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GongHaoBaiMingDan -->
+      </class> <!-- platformmanage.JobNoOfWhiteList -->
+      <class name="businessmanager.ReleaseCommodities">
+        <test-method status="PASS" signature="FaBuCommpdities()[pri:0, instance:businessmanager.ReleaseCommodities@7e0babb1]" name="FaBuCommpdities" duration-ms="10294" started-at="2020-04-07T10:05:51Z" finished-at="2020-04-07T10:06:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FaBuCommpdities -->
+      </class> <!-- businessmanager.ReleaseCommodities -->
+      <class name="platformmanage.ShoppingMallDirectory">
+        <test-method status="PASS" signature="ShangChenMuLu()[pri:0, instance:platformmanage.ShoppingMallDirectory@3f0ee7cb]" name="ShangChenMuLu" duration-ms="9602" started-at="2020-04-07T10:04:49Z" finished-at="2020-04-07T10:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShangChenMuLu -->
+      </class> <!-- platformmanage.ShoppingMallDirectory -->
+      <class name="channelmanagement.SalesForceList">
+        <test-method status="PASS" signature="QiYeList()[pri:0, instance:channelmanagement.SalesForceList@7d417077]" name="QiYeList" duration-ms="10314" started-at="2020-04-07T10:05:20Z" finished-at="2020-04-07T10:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QiYeList -->
+      </class> <!-- channelmanagement.SalesForceList -->
+      <class name="channelmanagement.NewSubordinateEnterprises">
+        <test-method status="PASS" signature="AddXiaShuQiYe()[pri:0, instance:channelmanagement.NewSubordinateEnterprises@5ba23b66]" name="AddXiaShuQiYe" duration-ms="10342" started-at="2020-04-07T10:05:09Z" finished-at="2020-04-07T10:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddXiaShuQiYe -->
+      </class> <!-- channelmanagement.NewSubordinateEnterprises -->
+      <class name="platformmanage.BusinessLists">
+        <test-method status="PASS" signature="qiyeliebiao()[pri:0, instance:platformmanage.BusinessLists@66d33a]" name="qiyeliebiao" duration-ms="6132" started-at="2020-04-07T10:03:59Z" finished-at="2020-04-07T10:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qiyeliebiao -->
+      </class> <!-- platformmanage.BusinessLists -->
+      <class name="TestCase.Login">
+        <test-method status="PASS" signature="login()[pri:0, instance:TestCase.Login@2c8d66b2]" name="login" duration-ms="21972" started-at="2020-04-07T10:03:35Z" finished-at="2020-04-07T10:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- TestCase.Login -->
+      <class name="platformmanage.SMSTemplate">
+        <test-method status="PASS" signature="DuanXinMuBan()[pri:0, instance:platformmanage.SMSTemplate@d041cf]" name="DuanXinMuBan" duration-ms="15665" started-at="2020-04-07T10:04:05Z" finished-at="2020-04-07T10:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DuanXinMuBan -->
+      </class> <!-- platformmanage.SMSTemplate -->
+      <class name="platformmanage.PhoneRelease">
+        <test-method status="PASS" signature="QiYeGuanXiGuanLi()[pri:0, instance:platformmanage.PhoneRelease@7cf10a6f]" name="QiYeGuanXiGuanLi" duration-ms="12960" started-at="2020-04-07T10:04:21Z" finished-at="2020-04-07T10:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QiYeGuanXiGuanLi -->
+      </class> <!-- platformmanage.PhoneRelease -->
+      <class name="businessmanager.CommodityAgreementManagement">
+        <test-method status="PASS" signature="ProductAgreementManagenent()[pri:0, instance:businessmanager.CommodityAgreementManagement@1134affc]" name="ProductAgreementManagenent" duration-ms="10280" started-at="2020-04-07T10:06:21Z" finished-at="2020-04-07T10:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductAgreementManagenent -->
+      </class> <!-- businessmanager.CommodityAgreementManagement -->
+      <class name="businessmanager.BrandLabel">
+        <test-method status="PASS" signature="ShoppingManager()[pri:0, instance:businessmanager.BrandLabel@256216b3]" name="ShoppingManager" duration-ms="10350" started-at="2020-04-07T10:06:11Z" finished-at="2020-04-07T10:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingManager -->
+      </class> <!-- businessmanager.BrandLabel -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

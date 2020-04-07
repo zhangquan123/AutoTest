@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Login"/>
+        <include name="FistPage"/>
+        <include name="BusinessLists"/>
+        <include name="SMSTemplate"/>
+        <include name="PhoneRelease"/>
+        <include name="JobNoOfWhiteList"/>
+        <include name="ShoppingMallDirectory"/>
+        <include name="HealthCode"/>
+        <include name="NewSubordinateEnterprises"/>
+        <include name="SalesForceList"/>
+        <include name="SalesStaffCreditInformation"/>
+        <include name="CustomerServicePersonnelList"/>
+        <include name="ReleaseCommodities"/>
+        <include name="ListOfItemsOnSale"/>
+        <include name="BrandLabel"/>
+        <include name="CommodityAgreementManagement"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="channelmanagement.SalesStaffCreditInformation">
+        <methods>
+          <include name="XiaoShouJiFen"/>
+        </methods>
+      </class> <!-- channelmanagement.SalesStaffCreditInformation -->
+      <class name="channelmanagement.CustomerServicePersonnelList">
+        <methods>
+          <include name="KeFuPersionList"/>
+        </methods>
+      </class> <!-- channelmanagement.CustomerServicePersonnelList -->
+      <class name="businessmanager.BrandLabel">
+        <methods>
+          <include name="ShoppingManager"/>
+        </methods>
+      </class> <!-- businessmanager.BrandLabel -->
+      <class name="channelmanagement.SalesForceList">
+        <methods>
+          <include name="QiYeList"/>
+        </methods>
+      </class> <!-- channelmanagement.SalesForceList -->
+      <class name="businessmanager.ListOfItemsOnSale">
+        <methods>
+          <include name="OnsaleList"/>
+        </methods>
+      </class> <!-- businessmanager.ListOfItemsOnSale -->
+      <class name="businessmanager.CommodityAgreementManagement">
+        <methods>
+          <include name="ProductAgreementManagenent"/>
+        </methods>
+      </class> <!-- businessmanager.CommodityAgreementManagement -->
+      <class name="businessmanager.ReleaseCommodities">
+        <methods>
+          <include name="FaBuCommpdities"/>
+        </methods>
+      </class> <!-- businessmanager.ReleaseCommodities -->
+      <class name="channelmanagement.NewSubordinateEnterprises">
+        <methods>
+          <include name="AddXiaShuQiYe"/>
+        </methods>
+      </class> <!-- channelmanagement.NewSubordinateEnterprises -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
