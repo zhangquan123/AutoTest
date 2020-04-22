@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="GovernmentBusiness.Login">
+      <class name="selenium.LogisticsCode">
         <methods>
-          <include name="OpenBrowser"/>
-          <include name="login"/>
+          <include name="Code"/>
         </methods>
-      </class> <!-- GovernmentBusiness.Login -->
+      </class> <!-- selenium.LogisticsCode -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  	<groups>
+  		<run>
+  			<include name="Login"/>
+  			<include name="ProvincesCityArea"/>
+  			<include name="RenewalCommodities"/>
+  			<include name="LogisticsCode"/>
+  			<include name="InstallMachineryCode"/>
+  			<include name="RenewalMaintenanceTimeSetting"/>
+  			<!--<include name="WindProduct"/>
+  			<include name="AlreadyOffShelves"/>
+  			<include name="WindNewOrder"/>
+  			<include name="RenewalOrder"/>
+  			 <include name="Administrator"/>
+  			<include name="Roler"/>
+  			<include name="Menu"/> 			
+  			
+  			
+  			<include name="Setup"/> -->
+  		</run>
+  	</groups>	
+  
+  	<classes>  	  
+      <class name="selenium.Login"/>
+      <class name="selenium.ProvincesCityArea"/>
+      <class name="selenium.RenewalCommodities"/>
+      <class name="selenium.LogisticsCode"/>
+      <class name="selenium.InstallMachineryCode"/>
+      <class name="selenium.RenewalMaintenanceTimeSetting"/>
+      <class name="selenium.WindProduct"/>
+      <class name="selenium.AlreadyOffShelves"/>
+      <class name="selenium.WindNewOrder"/>
+      <class name="selenium.RenewalOrder"/>
+      
+      <class name="selenium.Administrator"/>
+      <class name="selenium.Roler"/>  
+      <class name="selenium.Menu"/>       
+      <class name="selenium.Setup"/>
+    </classes>
+  </test> 
+</suite> 

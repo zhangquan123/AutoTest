@@ -1,68 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
+  <test name="Test">
+    <groups>
+      <run>
+        <include name="Login"/>
+        <include name="ProvincesCityArea"/>
+        <include name="RenewalCommodities"/>
+        <include name="LogisticsCode"/>
+        <include name="InstallMachineryCode"/>
+        <include name="RenewalMaintenanceTimeSetting"/>
+        <include name="WindProduct"/>
+        <include name="AlreadyOffShelves"/>
+        <include name="WindNewOrder"/>
+        <include name="RenewalOrder"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="selenium.Login"/>
+      <class name="selenium.ProvincesCityArea"/>
+      <class name="selenium.RenewalCommodities"/>
+      <class name="selenium.LogisticsCode"/>
+      <class name="selenium.InstallMachineryCode"/>
+      <class name="selenium.RenewalMaintenanceTimeSetting"/>
+      <class name="selenium.WindProduct"/>
+      <class name="selenium.AlreadyOffShelves"/>
+      <class name="selenium.WindNewOrder"/>
+      <class name="selenium.RenewalOrder"/>
+      <class name="selenium.Administrator"/>
+      <class name="selenium.Roler"/>
+      <class name="selenium.Menu"/>
+      <class name="selenium.Setup"/>
+    </classes>
+  </test> <!-- Test -->
   <test name="Test(failed)">
     <groups>
       <run>
         <include name="Login"/>
-        <include name="FistPage"/>
-        <include name="BusinessLists"/>
-        <include name="SMSTemplate"/>
-        <include name="PhoneRelease"/>
-        <include name="JobNoOfWhiteList"/>
-        <include name="ShoppingMallDirectory"/>
-        <include name="HealthCode"/>
-        <include name="NewSubordinateEnterprises"/>
-        <include name="SalesForceList"/>
-        <include name="SalesStaffCreditInformation"/>
-        <include name="CustomerServicePersonnelList"/>
-        <include name="ReleaseCommodities"/>
-        <include name="ListOfItemsOnSale"/>
-        <include name="BrandLabel"/>
-        <include name="CommodityAgreementManagement"/>
+        <include name="ProvincesCityArea"/>
+        <include name="RenewalCommodities"/>
+        <include name="LogisticsCode"/>
+        <include name="InstallMachineryCode"/>
+        <include name="RenewalMaintenanceTimeSetting"/>
+        <include name="WindProduct"/>
+        <include name="AlreadyOffShelves"/>
+        <include name="WindNewOrder"/>
+        <include name="RenewalOrder"/>
       </run>
     </groups>
     <classes>
-      <class name="channelmanagement.SalesStaffCreditInformation">
+      <class name="selenium.WindProduct">
         <methods>
-          <include name="XiaoShouJiFen"/>
+          <include name="WindProductTabulation"/>
         </methods>
-      </class> <!-- channelmanagement.SalesStaffCreditInformation -->
-      <class name="channelmanagement.CustomerServicePersonnelList">
+      </class> <!-- selenium.WindProduct -->
+      <class name="selenium.WindNewOrder">
         <methods>
-          <include name="KeFuPersionList"/>
+          <include name="WindNewOrderTabulation"/>
         </methods>
-      </class> <!-- channelmanagement.CustomerServicePersonnelList -->
-      <class name="businessmanager.BrandLabel">
+      </class> <!-- selenium.WindNewOrder -->
+      <class name="selenium.RenewalOrder">
         <methods>
-          <include name="ShoppingManager"/>
+          <include name="RenewalOrderTabulation"/>
         </methods>
-      </class> <!-- businessmanager.BrandLabel -->
-      <class name="channelmanagement.SalesForceList">
+      </class> <!-- selenium.RenewalOrder -->
+      <class name="selenium.RenewalCommodities">
         <methods>
-          <include name="QiYeList"/>
+          <include name="RenewalCommoditiesTabulation"/>
         </methods>
-      </class> <!-- channelmanagement.SalesForceList -->
-      <class name="businessmanager.ListOfItemsOnSale">
+      </class> <!-- selenium.RenewalCommodities -->
+      <class name="selenium.ProvincesCityArea">
         <methods>
-          <include name="OnsaleList"/>
+          <include name="ProvincesCityAreaTabulation"/>
         </methods>
-      </class> <!-- businessmanager.ListOfItemsOnSale -->
-      <class name="businessmanager.CommodityAgreementManagement">
+      </class> <!-- selenium.ProvincesCityArea -->
+      <class name="selenium.Login">
         <methods>
-          <include name="ProductAgreementManagenent"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- businessmanager.CommodityAgreementManagement -->
-      <class name="businessmanager.ReleaseCommodities">
+      </class> <!-- selenium.Login -->
+      <class name="selenium.RenewalMaintenanceTimeSetting">
         <methods>
-          <include name="FaBuCommpdities"/>
+          <include name="timeSetting"/>
         </methods>
-      </class> <!-- businessmanager.ReleaseCommodities -->
-      <class name="channelmanagement.NewSubordinateEnterprises">
+      </class> <!-- selenium.RenewalMaintenanceTimeSetting -->
+      <class name="selenium.AlreadyOffShelves">
         <methods>
-          <include name="AddXiaShuQiYe"/>
+          <include name="AlreadyOffShelvesTabulation"/>
         </methods>
-      </class> <!-- channelmanagement.NewSubordinateEnterprises -->
+      </class> <!-- selenium.AlreadyOffShelves -->
+      <class name="selenium.InstallMachineryCode">
+        <methods>
+          <include name="MachineryCode"/>
+        </methods>
+      </class> <!-- selenium.InstallMachineryCode -->
+      <class name="selenium.LogisticsCode">
+        <methods>
+          <include name="Code"/>
+        </methods>
+      </class> <!-- selenium.LogisticsCode -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
